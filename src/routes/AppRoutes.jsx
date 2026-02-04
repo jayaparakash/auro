@@ -18,8 +18,8 @@ export default function AppRoutes() {
   return (
     <Suspense fallback={<PageLoader />}>
       <Routes>
-        <Route path="/" element={<Navigate to="/" replace />} />
-        <Route path="/homepage" element={<Home />} />
+        {/* <Route path="/" element={<Navigate to="/" replace />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />

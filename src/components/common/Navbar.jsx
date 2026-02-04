@@ -49,7 +49,7 @@ export default function Navbar() {
             <div className="dropdown dropdown-end md:hidden">
               <button className="btn btn-ghost">☰</button>
               <ul className="menu dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52 border border-black/10">
-                <li><NavLink to="/ ">Home</NavLink></li>
+                <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/services">Services</NavLink></li>
                 <li><NavLink to="/projects">Projects</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
