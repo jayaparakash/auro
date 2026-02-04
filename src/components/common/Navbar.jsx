@@ -31,7 +31,7 @@ export default function Navbar() {
           {/* Links */}
           <div className="navbar-center hidden md:flex">
             <ul className="menu menu-horizontal gap-8 px-1 text-sm">
-              <li><NavLink to="/homepage" className={navLinkClass}>Home</NavLink></li>
+              <li><NavLink to="/" className={navLinkClass}>Home</NavLink></li>
               <li><NavLink to="/services" className={navLinkClass}>Services</NavLink></li>
               <li><NavLink to="/projects" className={navLinkClass}>Projects</NavLink></li>
               <li><NavLink to="/about" className={navLinkClass}>About</NavLink></li>
@@ -49,7 +49,7 @@ export default function Navbar() {
             <div className="dropdown dropdown-end md:hidden">
               <button className="btn btn-ghost">☰</button>
               <ul className="menu dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52 border border-black/10">
-                <li><NavLink to="/homepage">Home</NavLink></li>
+                <li><NavLink to="/ ">Home</NavLink></li>
                 <li><NavLink to="/services">Services</NavLink></li>
                 <li><NavLink to="/projects">Projects</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
